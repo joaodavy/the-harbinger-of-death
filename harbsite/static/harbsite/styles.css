@@ -1,0 +1,235 @@
+body{
+    background-color: #111111;
+    color: gainsboro;
+    font-family: Georgia, serif;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url('/static/harbsite/images/markground.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1400px;
+    opacity: 0.016;
+    filter: grayscale(100%);
+    z-index: -1;
+    pointer-events: none;
+}
+
+h1{
+    color: rebeccapurple;
+    text-align: center;
+    font-size: 3rem;
+}
+
+p{
+    color: silver;
+    text-align: center;
+}
+
+nav {
+    background-color: #181818;
+    padding: 20px 0;
+    width: 100%;
+    border-bottom: 1px solid rebeccapurple;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: color 0.2s;
+    position: relative;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0%;
+    height: 1px;
+    background-color: crimson;
+    transition: width 0.3s ease;
+}
+
+nav a:hover {
+    color: crimson;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    margin-top: 70px;
+}
+
+.text{
+    width: 55%;
+    text-align: center;
+}
+
+.text p {
+    text-align: justify;
+    hyphens: auto;
+}
+
+.cover{
+    width: 300px;
+    box-shadow: 0 0 10px slategray;
+    border-radius: 5px;
+}
+
+.home{
+    text-align: center;
+}
+
+.home-cover{
+    width: 250px;
+    box-shadow: 0 0 10px slategray;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.quote{
+    font-style: italic;
+    color: slategray;
+    margin-top: 30px;
+    font-size: 1.17rem;
+}
+
+.author-photo {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.creature-card {
+    width: 70%;
+    margin: 30px 0 30px 40px;
+    padding: 25px;
+
+    background-color: #181818;
+    border: 1px solid #333;
+    border-radius: 5px;
+
+    text-align: left;
+}
+
+.creature-card h2 {
+    color: darkslateblue
+}
+
+.creature-card h5 {
+    color: #777;
+}
+
+.creature-card .c-type {
+    color: slategray;
+}
+
+.creature-card .c-description {
+    color: darkgray;
+}
+
+.book-page {
+    width: 70%;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.book-intro {
+    color: silver;
+    margin-bottom: 40px;
+}
+
+.book-option {
+    background-color: #181818;
+    border: 1px solid #333;
+    border-radius: 5px;
+
+    padding: 25px;
+    margin: 25px auto;
+
+    width: 60%;
+}
+
+.book-option h2 {
+    color: darkslateblue;
+}
+
+.book-option p {
+    color: darkgray;
+}
+
+.book-option a {
+    display: inline-block;
+
+    margin-top: 15px;
+    padding: 10px 20px;
+
+    background-color: #181818;
+    border: 1px solid darkslateblue;
+    border-radius: 5px;
+
+    color: silver;
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+.book-option a:hover {
+    color: crimson;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .text, .book-page, .book-option {
+        width: 90%;
+    }
+
+    .creature-card {
+        width: 90%;
+        margin: 20px auto;
+    }
+}

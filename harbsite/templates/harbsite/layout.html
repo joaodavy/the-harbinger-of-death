@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang = "en">
+    {% load static %}
+    <head>
+        <link rel="stylesheet" href="{% static 'harbsite/styles.css' %}">
+        <title>Harbsite</title>
+        <link rel="icon" type="image/png" href="{% static 'harbsite/images/favicon.png' %}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+
+        <nav>
+            <ul>
+                <li><a href="{% url 'index' %}">Home</a></li>
+                <li><a href="{% url 'about' %}">About the Book</a></li>
+                <li><a href="{% url 'author' %}">About the Author</a></li>
+                <li><a href="{% url 'get_the_book' %}">Get the Book</a></li>
+            </ul>
+        </nav>
+        
+        
+        {% block body %}
+
+        {% endblock %}
+
+    </body> 
+</html>
