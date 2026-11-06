@@ -126,34 +126,6 @@ nav a:hover::after {
     margin: 0 auto;
 }
 
-.creature-card {
-    width: 70%;
-    margin: 30px 0 30px 40px;
-    padding: 25px;
-
-    background-color: #181818;
-    border: 1px solid #333;
-    border-radius: 5px;
-
-    text-align: left;
-}
-
-.creature-card h2 {
-    color: darkslateblue
-}
-
-.creature-card h5 {
-    color: #777;
-}
-
-.creature-card .c-type {
-    color: slategray;
-}
-
-.creature-card .c-description {
-    color: darkgray;
-}
-
 .book-page {
     width: 70%;
     margin: 70px auto;
@@ -205,9 +177,76 @@ nav a:hover::after {
 }
 
 
+/* Language selector */
 
+nav form {
+    margin: 0;
+}
 
+nav select {
+    appearance: none;
+    -webkit-appearance: none;
 
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    outline-offset: 5px;
+
+    color: gray;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    cursor: pointer;
+    padding: 0;
+
+    transition: color 0.2s;
+
+    width: 125px;
+    min-width: 125px;
+    box-sizing: border-box;
+}
+
+nav select:hover,
+nav select:focus-visible {
+    color: crimson;
+}
+
+nav select option {
+    background-color: #181818;
+    color: gainsboro;
+}
+
+nav .language-selector {
+    position: relative;
+    display: inline-block;
+}
+
+nav .language-selector::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+
+    width: 0;
+    height: 1px;
+
+    background-color: crimson;
+    transition: width 0.3s ease;
+
+    pointer-events: none;
+}
+
+nav .language-selector:has(option[value="pt-br"]:checked):hover::after,
+nav .language-selector:has(option[value="pt-br"]:checked):focus-within::after {
+    width: 105px;
+}
+
+nav .language-selector:has(option[value="en"]:checked):hover::after,
+nav .language-selector:has(option[value="en"]:checked):focus-within::after {
+    width: 78px;
+}
 
 
 @media (max-width: 768px) {
@@ -226,10 +265,5 @@ nav a:hover::after {
 
     .text, .book-page, .book-option {
         width: 90%;
-    }
-
-    .creature-card {
-        width: 90%;
-        margin: 20px auto;
     }
 }

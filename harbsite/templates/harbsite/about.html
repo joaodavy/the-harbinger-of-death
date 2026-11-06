@@ -1,33 +1,46 @@
+
 {% extends 'harbsite/layout.html' %}
-{% load static %}
+{% load static i18n %}
 
 {% block body %}
-<h1>Death's Favorite Son</h1>
+
+<h1>{% trans "Death's Favorite Son" %}</h1>
+
 <div class="content">
 
     <div class="text">
 
-        <p>
-            What does he have left? Did he ever have anything at all? What changed?
-        </p>
-        <p>This world is full of misery. For some, it is a nightmare; for others... it is more like a farm or a bank.</p>
-        <p>In the midst of all that, someone ended up losing. Losing everything.</p>
-        <p>So yes, he did have something, but... if he doesn't remember it, what good is it? Does it still matter?</p>
-        <p>Did he remain the same person? Well... if living like that is the same as being a person...</p>
-        <p>"The Harbinger of Death" ("O Arauto da Morte", in the original) is a book that explores many themes.</p>
-        <p>Guilt, loneliness, desperation, longing for... well, the end.</p>
-        <p>Sacrifice, choices, violence.</p>
-        <p>Pain, agony, transformation.</p>
-        <p>Identity, emptiness, loss.</p>
-        <p>Forgiveness, kindness, growth. </p>
-        <p>In a world full of despair, what would you choose to do?</p>
-        <p>What would you choose to be?</p>
+        <p>{% trans "What does he have left? Did he ever have anything at all? What changed?" %}</p>
+
+        <p>{% trans "This world is full of misery. For some, it is a nightmare; for others... it is more like a farm or a bank." %}</p>
+
+        <p>{% trans "In the midst of all that, someone ended up losing. Losing everything." %}</p>
+
+        <p>{% trans "So yes, he did have something, but... if he doesn't remember it, what good is it? Does it still matter?" %}</p>
+
+        <p>{% trans "Did he remain the same person? Well... if living like that is the same as being a person..." %}</p>
+
+        <p>{% trans '"The Harbinger of Death" ("O Arauto da Morte", in the original) is a book that explores many themes.' %}</p>
+
+        <p>{% trans "Guilt, loneliness, desperation, longing for... well, the end." %}</p>
+
+        <p>{% trans "Sacrifice, choices, violence." %}</p>
+
+        <p>{% trans "Pain, agony, transformation." %}</p>
+
+        <p>{% trans "Identity, emptiness, loss." %}</p>
+
+        <p>{% trans "Forgiveness, kindness, growth." %}</p>
+
+        <p>{% trans "In a world full of despair, what would you choose to do?" %}</p>
+
+        <p>{% trans "What would you choose to be?" %}</p>
 
     </div>
 
     <img class="cover"
          src="{% static 'harbsite/images/cover.jpg' %}"
-         alt="Cover">
+         alt="{% trans 'Book cover' %}">
 
 </div>
 

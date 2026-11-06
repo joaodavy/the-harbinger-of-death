@@ -1,28 +1,52 @@
+{% load static i18n %}
+
 <!DOCTYPE html>
-<html lang = "en">
-    {% load static %}
+
+<html lang="{{ LANGUAGE_CODE }}">
     <head>
         <link rel="stylesheet" href="{% static 'harbsite/styles.css' %}">
         <title>Harbsite</title>
         <link rel="icon" type="image/png" href="{% static 'harbsite/images/favicon.png' %}">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     </head>
-    <body>
 
+    <body>
         <nav>
             <ul>
-                <li><a href="{% url 'index' %}">Home</a></li>
-                <li><a href="{% url 'about' %}">About the Book</a></li>
-                <li><a href="{% url 'author' %}">About the Author</a></li>
-                <li><a href="{% url 'get_the_book' %}">Get the Book</a></li>
+                
+                <li><a href="{% url 'index' %}">{% trans "Home" %}</a></li>
+                <li><a href="{% url 'about' %}">{% trans "About the Book" %}</a></li>
+                <li><a href="{% url 'author' %}">{% trans "About the Author" %}</a></li>
+                <li><a href="{% url 'get_the_book' %}">{% trans "Get the Book" %}</a></li>
+                <li>
+                    <form action="{% url 'set_language' %}" method="post">
+                        {% csrf_token %}
+                        <input type="hidden" name="next" value="{{ request.get_full_path }}">
+
+                        <span class="language-selector">
+                            {% get_current_language as CURRENT_LANGUAGE %}
+
+                            <select
+                                name="language"
+                                aria-label="{% trans 'Select language' %}"
+                                onchange="this.form.submit()"
+                            >
+                                <option value="pt-br" {% if CURRENT_LANGUAGE == 'pt-br' %}selected{% endif %}>
+                                    Português
+                                </option>
+
+                                <option value="en" {% if CURRENT_LANGUAGE == 'en' or CURRENT_LANGUAGE == 'en-us' %}selected{% endif %}>
+                                    English
+                                </option>
+                            </select>
+                        </span>
+                    </form>
+                </li>
+
             </ul>
         </nav>
-        
-        
+
         {% block body %}
-
         {% endblock %}
-
-    </body> 
+    </body>
 </html>

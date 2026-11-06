@@ -1,0 +1,291 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Harbsite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-05 21:30-0300\n"
+"PO-Revision-Date: 2026-11-05 21:21-0300\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\harbinger\settings.py:116
+msgid "Português (Brasil)"
+msgstr "Português (Brasil)"
+
+#: .\harbinger\settings.py:117
+msgid "English"
+msgstr "Inglês"
+
+#: .\harbsite\templates\harbsite\about.html:7
+msgid "Death's Favorite Son"
+msgstr "O Filho Preferido da Morte"
+
+#: .\harbsite\templates\harbsite\about.html:13
+msgid "What does he have left? Did he ever have anything at all? What changed?"
+msgstr ""
+"O que lhe resta? Será que algum dia ele teve alguma coisa? O que mudou?"
+
+#: .\harbsite\templates\harbsite\about.html:15
+msgid ""
+"This world is full of misery. For some, it is a nightmare; for others... it "
+"is more like a farm or a bank."
+msgstr ""
+"Este mundo está repleto de miséria. Para alguns, é um pesadelo; para "
+"outros... é mais como uma fazenda ou um banco."
+
+#: .\harbsite\templates\harbsite\about.html:17
+msgid "In the midst of all that, someone ended up losing. Losing everything."
+msgstr "Em meio a tudo isso, alguém acabou perdendo. Perdendo tudo."
+
+#: .\harbsite\templates\harbsite\about.html:19
+msgid ""
+"So yes, he did have something, but... if he doesn't remember it, what good "
+"is it? Does it still matter?"
+msgstr ""
+"Então, sim, ele tinha algo, mas... se não se lembra, de que adianta? Será "
+"que ainda importa?"
+
+#: .\harbsite\templates\harbsite\about.html:21
+msgid ""
+"Did he remain the same person? Well... if living like that is the same as "
+"being a person..."
+msgstr ""
+"Ele continuou sendo a mesma pessoa? Bem... se viver daquela maneira é o "
+"mesmo que ser uma pessoa..."
+
+#: .\harbsite\templates\harbsite\about.html:23
+msgid ""
+"\"The Harbinger of Death\" (\"O Arauto da Morte\", in the original) is a "
+"book that explores many themes."
+msgstr ""
+"\"O Arauto da Morte\" (\"The Harbinger of Death\", em inglês) é um livro que "
+"explora diversos temas."
+
+#: .\harbsite\templates\harbsite\about.html:25
+msgid "Guilt, loneliness, desperation, longing for... well, the end."
+msgstr "Culpa, solidão, desespero, anseio por... bem, pelo fim."
+
+#: .\harbsite\templates\harbsite\about.html:27
+msgid "Sacrifice, choices, violence."
+msgstr "Sacrifício, escolhas, violência."
+
+#: .\harbsite\templates\harbsite\about.html:29
+msgid "Pain, agony, transformation."
+msgstr "Dor, agonia, transformação."
+
+#: .\harbsite\templates\harbsite\about.html:31
+msgid "Identity, emptiness, loss."
+msgstr "Identidade, vazio, perda."
+
+#: .\harbsite\templates\harbsite\about.html:33
+msgid "Forgiveness, kindness, growth."
+msgstr "Perdão, gentileza, crescimento."
+
+#: .\harbsite\templates\harbsite\about.html:35
+msgid "In a world full of despair, what would you choose to do?"
+msgstr "Em um mundo repleto de desespero, o que você escolheria fazer?"
+
+#: .\harbsite\templates\harbsite\about.html:37
+msgid "What would you choose to be?"
+msgstr "O que você escolheria ser?"
+
+#: .\harbsite\templates\harbsite\about.html:43
+msgid "Book cover"
+msgstr "Capa do livro"
+
+#: .\harbsite\templates\harbsite\author.html:10
+msgid "The author's photo"
+msgstr "Foto do autor"
+
+#: .\harbsite\templates\harbsite\author.html:14
+msgid ""
+"João Davi is a Brazilian writer who... Ok, ok, I won't talk about myself in "
+"the third person anymore, I promise."
+msgstr ""
+"João Davi é um escritor brasileiro que... Tá, tá, não vou mais falar de mim "
+"na terceira pessoa, prometo."
+
+#: .\harbsite\templates\harbsite\author.html:16
+msgid ""
+"Right now, I'm sixteen years old, the same age I was when the book was "
+"published."
+msgstr ""
+"Atualmente, tenho dezesseis anos, a mesma idade que tinha quando o livro foi "
+"publicado."
+
+#: .\harbsite\templates\harbsite\author.html:18
+msgid "The thing is, I didn't actually finish the book at this age."
+msgstr "Acontece que eu não terminei o livro com essa idade."
+
+#: .\harbsite\templates\harbsite\author.html:20
+msgid ""
+"Actually, I was fifteen, the same age I was when I started writing the book."
+msgstr ""
+"Na verdade, eu tinha quinze anos, a mesma idade com que comecei a escrevê-lo."
+
+#: .\harbsite\templates\harbsite\author.html:22
+msgid ""
+"Well... we all know publishing a book is not that easy, so I had to wait a "
+"few months for it to be ready. Now, I'm sixteen."
+msgstr ""
+"Bem... todos sabemos que publicar um livro não é tão fácil assim, então "
+"precisei esperar alguns meses até que ele ficasse pronto. Agora, tenho "
+"dezesseis anos."
+
+#: .\harbsite\templates\harbsite\author.html:24
+msgid ""
+"About me... I can tell you some things, but I will focus more on my "
+"literary, philosophical and psychological influences."
+msgstr ""
+"Sobre mim... posso contar algumas coisas, mas vou me concentrar mais nas "
+"minhas influências literárias, filosóficas e psicológicas."
+
+#: .\harbsite\templates\harbsite\author.html:26
+msgid ""
+"My reason for that is: These people shaped so much of my thinking "
+"(therefore, my writing) that I have to talk about them"
+msgstr ""
+"O motivo é o seguinte: essas pessoas moldaram tanto o meu pensamento (e, "
+"consequentemente, a minha escrita) que preciso falar sobre elas."
+
+#: .\harbsite\templates\harbsite\author.html:28
+msgid "Literature: Dostoevsky, J.R.R Tolkien."
+msgstr "Literatura: Dostoiévski, J.R.R. Tolkien."
+
+#: .\harbsite\templates\harbsite\author.html:30
+msgid "Philosophy: Kierkegaard, Camus."
+msgstr "Filosofia: Kierkegaard, Camus."
+
+#: .\harbsite\templates\harbsite\author.html:32
+msgid "Psychology: Carl Jung, Sigmund Freud."
+msgstr "Psicologia: Carl Jung, Sigmund Freud."
+
+#: .\harbsite\templates\harbsite\author.html:34
+msgid ""
+"There are many others, but i decided to stick to only two of them in each "
+"category."
+msgstr ""
+"Existem muitos outros, mas decidi mencionar apenas dois em cada categoria."
+
+#: .\harbsite\templates\harbsite\author.html:36
+msgid "Oh, and feel free to discover traces of all of them in the book."
+msgstr "Ah, e fique à vontade para descobrir vestígios de todos eles no livro."
+
+#: .\harbsite\templates\harbsite\author.html:38
+msgid ""
+"My friend, obviously I wouldn't explain it all for you, that would "
+"absolutely ruin your experience."
+msgstr ""
+"Meu caro, é óbvio que eu não explicaria tudo para você. Isso arruinaria "
+"absolutamente a sua experiência."
+
+#: .\harbsite\templates\harbsite\author.html:40
+msgid ""
+"As for my language, I experimented a lot and had lots of fun doing that. "
+"Writing is great, I recommend it!"
+msgstr ""
+"Quanto à minha linguagem, experimentei bastante e me diverti muito fazendo "
+"isso. Escrever é ótimo, recomendo!"
+
+#: .\harbsite\templates\harbsite\author.html:42
+msgid "Reading, you will discover the results of my experiments."
+msgstr "Ao ler, você descobrirá os resultados dos meus experimentos."
+
+#: .\harbsite\templates\harbsite\author.html:44
+msgid ""
+"The structuring, the thinking, the changing, the plotting, all the "
+"foreshadowing! I loved doing all that!"
+msgstr ""
+"A estruturação, a reflexão, as mudanças, a construção da trama, todas as "
+"antecipações! Adorei fazer tudo isso!"
+
+#: .\harbsite\templates\harbsite\author.html:46
+msgid ""
+"And talk about the themes, man! Talking about the things that anguish, "
+"disturb and fascinate me was wonderful."
+msgstr ""
+"E nem me fale dos temas, cara! Falar sobre as coisas que me angustiam, "
+"perturbam e fascinam foi maravilhoso."
+
+#: .\harbsite\templates\harbsite\author.html:48
+msgid ""
+"I read a lot, I think a lot. Translating all that to my own book was "
+"unforgettable. Hope you'll enjoy my little book!"
+msgstr ""
+"Leio muito, penso muito. Transformar tudo isso em meu próprio livro foi "
+"inesquecível. Espero que goste do meu pequeno livro!"
+
+#: .\harbsite\templates\harbsite\author.html:50
+msgid "All the glory to God. Without Him, none of this would be possible."
+msgstr "Toda a glória a Deus. Sem Ele, nada disso seria possível."
+
+#: .\harbsite\templates\harbsite\get_the_book.html:9
+msgid "Get your Copy"
+msgstr "Adquira seu exemplar"
+
+#: .\harbsite\templates\harbsite\get_the_book.html:12
+msgid "The Harbinger of Death is available in the following formats:"
+msgstr "O Arauto da Morte está disponível nos seguites formatos "
+
+#: .\harbsite\templates\harbsite\get_the_book.html:17
+msgid "E-book"
+msgstr "E-book"
+
+#: .\harbsite\templates\harbsite\get_the_book.html:19
+msgid "Available soon."
+msgstr "Disponível em breve"
+
+#: .\harbsite\templates\harbsite\get_the_book.html:25
+msgid "Physical Edition"
+msgstr "Livro físico"
+
+#: .\harbsite\templates\harbsite\get_the_book.html:27
+msgid "To purchase a physical copy, contact me:"
+msgstr "Para adquirir um exemplar físico, entre em contato comigo"
+
+#: .\harbsite\templates\harbsite\index.html:8
+msgid "The Harbinger of Death"
+msgstr "O Arauto da Morte"
+
+#: .\harbsite\templates\harbsite\index.html:12
+msgid "The Harbinger of Death Cover"
+msgstr "Capa de O Arauto da Morte"
+
+#: .\harbsite\templates\harbsite\index.html:15
+msgid ""
+"Welcome to the official website of <em>The Harbinger of Death</em>. Traverse "
+"this ruthless world, witnessing the touch of Death wherever the Harbinger "
+"walks."
+msgstr ""
+"Bem-vindo ao site oficial de <em>O Arauto da Morte</em>. Atravesse este "
+"mundo impiedoso, testemunhando o toque da Morte por onde quer que o Arauto "
+"passe."
+
+#: .\harbsite\templates\harbsite\index.html:22
+msgid ""
+"Fear dying and die fearing. This is the fate of whoever dares to live in "
+"this world."
+msgstr ""
+"Tema morrer e morra temendo. Esse é o destino de quem ousa viver neste mundo."
+
+#: .\harbsite\templates\harbsite\layout.html:17
+msgid "Home"
+msgstr "Início"
+
+#: .\harbsite\templates\harbsite\layout.html:18
+msgid "About the Book"
+msgstr "Sobre o Livro"
+
+#: .\harbsite\templates\harbsite\layout.html:19
+msgid "About the Author"
+msgstr "Autor"
+
+#: .\harbsite\templates\harbsite\layout.html:20
+msgid "Get the Book"
+msgstr "Adquira o Livro"
+
+#: .\harbsite\templates\harbsite\layout.html:31
+msgid "Select language"
+msgstr "Selecionar idioma"
