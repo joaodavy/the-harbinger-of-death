@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Harbsite\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-05 21:30-0300\n"
+"POT-Creation-Date: 2026-11-08 21:29-0300\n"
 "PO-Revision-Date: 2026-11-05 21:21-0300\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -229,19 +229,23 @@ msgstr "Adquira seu exemplar"
 msgid "The Harbinger of Death is available in the following formats:"
 msgstr "O Arauto da Morte está disponível nos seguites formatos "
 
-#: .\harbsite\templates\harbsite\get_the_book.html:17
+#: .\harbsite\templates\harbsite\get_the_book.html:18
 msgid "E-book"
 msgstr "E-book"
 
-#: .\harbsite\templates\harbsite\get_the_book.html:19
-msgid "Available soon."
-msgstr "Disponível em breve"
+#: .\harbsite\templates\harbsite\get_the_book.html:20
+msgid "Available now on Amazon Kindle."
+msgstr "Disponível agora no Amazon Kindle"
 
 #: .\harbsite\templates\harbsite\get_the_book.html:25
+msgid "Buy on Amazon"
+msgstr "Compre na Amazon"
+
+#: .\harbsite\templates\harbsite\get_the_book.html:33
 msgid "Physical Edition"
 msgstr "Livro físico"
 
-#: .\harbsite\templates\harbsite\get_the_book.html:27
+#: .\harbsite\templates\harbsite\get_the_book.html:35
 msgid "To purchase a physical copy, contact me:"
 msgstr "Para adquirir um exemplar físico, entre em contato comigo"
 
